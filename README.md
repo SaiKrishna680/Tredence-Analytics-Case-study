@@ -77,14 +77,6 @@ meaningful sparsity is achieved.
 | Gate initialisation | sigmoid(−3) ≈ 0.047 |
 | Prune threshold | 0.05 |
 
-### Sparsity vs Accuracy Trade-off
-
-| Lambda (λ) | Test Accuracy (%) | Sparsity Level (%) | Interpretation |
-|:---:|:---:|:---:|---|
-| 0.001 | _run to get_ | _run to get_ | Low pruning pressure, near-baseline accuracy |
-| 0.005 | _run to get_ | _run to get_ | Balanced trade-off |
-| 0.020 | _run to get_ | _run to get_ | Aggressive pruning, some accuracy cost |
-
 ### Per-Layer Sparsity
 
 The script also prints per-layer sparsity bars like:
